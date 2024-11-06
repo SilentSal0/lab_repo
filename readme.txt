@@ -1,0 +1,1 @@
+this program is designed to be as simple calculator
