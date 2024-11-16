@@ -1,20 +1,7 @@
-def sum(a, b):
-    return a + b
+from math_module import *
 
-def subtract(a, b):
-    return a - b
-
-def multiply(a, b):
-    return a * b
-
-def divide(a, b):
-    return a / b if b > 0 else "divided by 0"
-
-def square(n):
-    return n / n;
-
-a = 5
-b = 0
+a = int(input('Enter a: '))
+b = int(input('Enter b: '))
 
 print('Sum:', sum(a, b))
 print('Subraction:', subtract(a, b))
