@@ -10,8 +10,8 @@ def multiply(a, b):
 def divide(a, b):
     return a / b if b > 0 else "divided by 0"
 
-a = 5
-b = 0
+a = int(input('Enter a: '))
+b = int(input('Enter b: '))
 
 print('Sum:', sum(a, b))
 print('Subraction:', subtract(a, b))
