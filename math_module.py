@@ -12,3 +12,6 @@ def divide(a, b):
 
 def square(n):
     return n * n;
+
+def power(a, n):
+    return a ** n;
