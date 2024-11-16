@@ -10,6 +10,9 @@ def multiply(a, b):
 def divide(a, b):
     return a / b if b > 0 else "divided by 0"
 
+def square(n):
+    return n * n;
+
 a = int(input('Enter a: '))
 b = int(input('Enter b: '))
 
